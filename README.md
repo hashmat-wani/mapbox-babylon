@@ -42,7 +42,7 @@ If the user enters the correct email address and password, they will be authenti
 
 This project allows users to authenticate themselves with Google authentication. This feature is implemented using OAuth, which is a standard protocol for authentication and authorization.
 
-<ins>How Facebook and Google Authentication Work<ins>
+<ins>How Google Authentication Work<ins>
 
 OAuth is an open standard for authorization that allows third-party applications to access user data without requiring the user to disclose their login credentials. This allows users to log in to applications using their Google accounts.
 
@@ -50,7 +50,7 @@ When a user logs in with Google, the application sends a request to the Google O
 
 ### **4. OTP Verification for Email Verification**
 
-When a user registers on the platform(without Google and Facebook OAuth), they are required to verify their email address. The verification process involves sending an OTP (One-Time Password) to the user's email address. The user then enters the OTP on the platform to verify their email address.
+When a user registers on the platform(without Google OAuth), they are required to verify their email address. The verification process involves sending an OTP (One-Time Password) to the user's email address. The user then enters the OTP on the platform to verify their email address.
 
 <ins>The OTP verification process is implemented using the following technologies:</ins>
 
